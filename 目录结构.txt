@@ -1,0 +1,20 @@
+1. 项目名称 tmall_springboot
+2. java源代码包结构
+pojo 实体
+config 配置
+es elasticsearch dao类
+exception 异常处理
+realm shiro相关
+dao DAO类
+interceptor 拦截器
+web 控制层
+service Service层
+test 测试类
+util 工具类
+comparator 比较类
+3. webapp 目录
+css css文件
+img 图片资源
+js js文件
+4. templates
+thymeleaf 模板文件
