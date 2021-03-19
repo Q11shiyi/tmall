@@ -13,7 +13,7 @@ import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @Entity
-@Table(name = "orderItem")
+@Table(name = "order_item")
 @JsonIgnoreProperties({ "handler","hibernateLazyInitializer" })
 public class OrderItem {
     @Id

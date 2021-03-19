@@ -1,7 +1,10 @@
 # tmall 基于天猫的仿写商城系统
 ## 项目介绍
-使用了SpringBoot + SSM 框架整合的一个模拟天猫电商系统,前端使用了Vue.js实现前后端分离项目
-项目地址[tmall](http://106.13.178.79 "tmall")
+
+使用了SpringBoot + VUE.js 整合的一个模拟天猫电商系统,前端使用了Vue.js实现前后端分离项目
+
+![image-20210319225152348](https://gitee.com/hhq11/img/raw/master/img/20210319225159.png)
+
 ## 主要功能模块
 #### 购物车模块
 - 立即购买

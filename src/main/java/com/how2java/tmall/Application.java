@@ -9,14 +9,14 @@ import org.springframework.data.elasticsearch.repository.config.EnableElasticsea
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 import com.how2java.tmall.util.PortUtil;
+/**
+ * @author huanghuiqiang
+ */
 @SpringBootApplication
 @EnableCaching
 @EnableElasticsearchRepositories(basePackages = "com.how2java.tmall.es")
 @EnableJpaRepositories(basePackages = {"com.how2java.tmall.dao", "com.how2java.tmall.pojo"})
 public class Application {
-    static {
-        PortUtil.checkPort(6379,"Redis 服务端",true);
-    }
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
     }
